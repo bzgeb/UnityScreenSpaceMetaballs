@@ -3,4 +3,4 @@ ScreenSpace Metaballs in Unity using Scriptable Renderer Passes and standard mes
 
 Credit to the [UniversalRenderingExamples](https://github.com/Unity-Technologies/UniversalRenderingExamples) for the Kawase blur shader and scriptable render pass.
 
-![Example]()
+![Example](https://github.com/bzgeb/UnityScreenSpaceMetaballs/blob/main/Example.jpg)
