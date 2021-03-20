@@ -17,6 +17,9 @@ MonoBehaviour:
   _layerMask:
     serializedVersion: 2
     m_Bits: 64
+  _blurMaterial: {fileID: 2100000, guid: 83cd7000f6233494489fec08f7feca7e, type: 2}
+  _blitMaterial: {fileID: 2100000, guid: 0ba2dc209dfe3814092d55f4001ce005, type: 2}
+  _blurPasses: 4
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,7 +49,7 @@ MonoBehaviour:
     materialErrorPS: {fileID: 4800000, guid: 5fd9a8feb75a4b5894c241777f519d4e, type: 3}
   m_OpaqueLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_TransparentLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
