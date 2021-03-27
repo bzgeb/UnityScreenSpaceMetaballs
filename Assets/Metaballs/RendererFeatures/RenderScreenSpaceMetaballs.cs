@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-public class RenderObjectsCustomRenderTarget : ScriptableRendererFeature
+public class RenderScreenSpaceMetaballs : ScriptableRendererFeature
 {
     #region Render Objects
 
@@ -160,8 +160,8 @@ public class RenderObjectsCustomRenderTarget : ScriptableRendererFeature
     RenderObjectsPass _renderObjectsPass;
     KawaseBlurRenderPass _blurPass;
 
-    const string PassTag = "RenderObjectsCustomRenderTarget";
-    [SerializeField] string _renderTargetId;
+    const string PassTag = "RenderScreenSpaceMetaballs";
+    [SerializeField] string _renderTargetId = "_RenderMetaballsRT";
     [SerializeField] LayerMask _layerMask;
     [SerializeField] Material _blurMaterial;
     [SerializeField] Material _blitMaterial;
