@@ -711,7 +711,8 @@
         Cull Back
         ZTest LEqual
         ZWrite On
-               ColorMask 0 
+        ColorMask 0
+        
         // Debug
         // <None>
         
@@ -1363,8 +1364,7 @@
         
         // Render State
         Cull Off
-        ColorMask 0
-        
+        ColorMask 0 
         // Debug
         // <None>
         
@@ -1681,8 +1681,7 @@
         
         // Render State
         Cull Back
-        ColorMask 0
-        
+        ColorMask 0 
         // Debug
         // <None>
         
@@ -2001,8 +2000,7 @@
         Cull Back
         ZTest LEqual
         ZWrite On
-        ColorMask 0
-        
+        ColorMask 0 
         // Debug
         // <None>
         
@@ -2724,6 +2722,7 @@
         #define VARYINGS_NEED_TEXCOORD0
         #define FEATURES_GRAPH_VERTEX
         /* WARNING: $splice Could not find named fragment 'PassInstancing' */
+        #define SHADERPASS SHADERPASS_DEPTHONLY
         #define _ALPHATEST_ON 1
         /* WARNING: $splice Could not find named fragment 'DotsInstancingVars' */
         
@@ -3009,8 +3008,8 @@
         Cull Back
         ZTest LEqual
         ZWrite On
-        ColorMask 0
-        
+        ColorMask 0 
+            
         // Debug
         // <None>
         
@@ -3660,8 +3659,7 @@
         
         // Render State
         Cull Off
-        ColorMask 0
-        
+        ColorMask 0 
         // Debug
         // <None>
         
@@ -3978,8 +3976,7 @@
         
         // Render State
         Cull Back
-        ColorMask 0
-        
+        ColorMask 0 
         // Debug
         // <None>
         
@@ -4298,8 +4295,7 @@
         Cull Back
         ZTest LEqual
         ZWrite On
-        ColorMask 0
-        
+        ColorMask 0 
         // Debug
         // <None>
         
